@@ -3,7 +3,7 @@ import urllib.request
 import json
 
 url = 'https://hipsum.co/api/'
-values = { 'type': 'hipster-centric', 'sentences': 5 }
+values = { 'type': 'hipster-centric', 'sentences': 5, 'start-with-lorem': 1 }
 
 # data = urllib.parse.urlencode(values)
 # url = '?'.join([url, data])
